@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "catalyst",
+	"version": "${version}",
+	"name": "Catalyst",
+	"description": "This is Catalyst. A potion and alchemy rework for kings and crowns",
+	"authors": [
+		"flungip"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/catalyst/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flungip.catalyst.Catalyst"
+		],
+		"client": [
+			"net.flungip.catalyst.CatalystClient"
+		],
+		"fabric-datagen": [
+			"net.flungip.catalyst.CatalystDataGenerator"
+		]
+	},
+	"mixins": [
+		"catalyst.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
