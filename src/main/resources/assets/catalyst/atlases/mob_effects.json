@@ -1,0 +1,6 @@
+{
+  "sources": [
+    { "type": "single", "resource": "catalyst:mob_effect/nulling" },
+    { "type": "single", "resource": "catalyst:mob_effect/withdrawal" }
+  ]
+}

@@ -1,4 +1,18 @@
 {
   "item.catalyst.stew": "Stew that blinds you for a day",
-  "itemGroup.catalyst_tab": "Catalyst Items"
+  "itemGroup.catalyst_tab": "Catalyst Items",
+  "block.catalyst.alchemy_table": "Alchemy Table",
+  "item.minecraft.potion.effect.nulling": "Potion of Kaolusl",
+  "item.minecraft.splash_potion.effect.nulling": "Splash Potion of Kaolusl",
+  "item.minecraft.lingering_potion.effect.nulling": "Lingering Potion of Kaolusl",
+  "item.minecraft.tipped_arrow.effect.nulling": "Arrow of Kaolusl",
+  "item.catalyst.potion_of_transhumance":  "Potion of Raymoisif",
+  "item.catalyst.potion_of_withdrawl":     "Potion of Withdrawl",
+  "effect.catalyst.nulling": "Nulling",
+  "item.minecraft.potion.effect.withdrawal": "Potion of Maelusl",
+  "item.minecraft.splash_potion.effect.withdrawal": "Splash Potion of Maelusl",
+  "item.minecraft.lingering_potion.effect.withdrawal": "Lingering Potion of Maelusl",
+  "item.minecraft.tipped_arrow.effect.withdrawal": "Arrow of Maelusl",
+  "effect.catalyst.withdrawal": "Withdrawal",
+  "item.catalyst.aed_badge": "Aed Badge"
 }
