@@ -1,9 +1,7 @@
 package net.flungip.catalyst;
 
-import net.fabricmc.api.ClientModInitializer;
-
-public class CatalystClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
+public class CatalystClient implements net.fabricmc.api.ClientModInitializer {
+    @Override public void onInitializeClient() {
+        net.flungip.catalyst.client.OverdoseCameraJitter.init();
     }
 }

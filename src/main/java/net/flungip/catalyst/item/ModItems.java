@@ -7,16 +7,32 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
+import net.flungip.catalyst.item.XadrylItem;
 
 public class ModItems {
+
+    private static final int SIX_MIN = 6 * 60 * 20;
 
     public static final Item STEW = new Item(new Item.Settings().food(
             new FoodComponent.Builder()
                     .hunger(6)
                     .saturationModifier(0.6f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 24000), 1.0f)
-                    .build()
-    ));
+                    .build()));
+
+    public static final Item XADRYL_TAB = new Item(new Item.Settings()
+            .food(new FoodComponent.Builder()
+                    .snack()
+                    .alwaysEdible()
+                    .hunger(0).saturationModifier(0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,       SIX_MIN, 2), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION,     SIX_MIN, 1), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST,     SIX_MIN, 0), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,       SIX_MIN, 3), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,         SIX_MIN, 0), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, SIX_MIN, 0), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING,        SIX_MIN, 0), 1.0f)
+                    .build()));
 
     public static final Item AED_BADGE =
             new TranshumancePotionItem(new Item.Settings().maxCount(1));
@@ -35,8 +51,8 @@ public class ModItems {
     public static final Item NETHER_POWDER  = new Item(new Item.Settings());
     public static final Item WITHER_SLIME   = new Item(new Item.Settings());
     public static final Item WITHER_DUST    = new Item(new Item.Settings());
-    public static final Item XADRYL         = new Item(new Item.Settings());
-    public static final Item XADRYL_TAB     = new Item(new Item.Settings());
+    public static final Item XADRYL = new XadrylItem(new Item.Settings());
+
 
     public static void registerAll() {
         Registry.register(Registries.ITEM, new Identifier("catalyst", "stew"),                STEW);

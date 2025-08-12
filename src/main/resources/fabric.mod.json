@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "catalyst",
-	"version": "${version}",
+	"version": "${0.1.2}",
 	"name": "Catalyst",
 	"description": "This is Catalyst. A potion and alchemy rework for kings and crowns",
 	"authors": [

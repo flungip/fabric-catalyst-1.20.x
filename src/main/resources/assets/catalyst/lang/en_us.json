@@ -21,6 +21,8 @@
 
   "effect.catalyst.nulling": "Nulling",
   "effect.catalyst.withdrawal": "Withdrawal",
+  "effect.catalyst.overdose": "Overdose",
+
 
   "item.minecraft.potion.effect.nulling": "Potion of Nulling",
   "item.minecraft.splash_potion.effect.nulling": "Splash Potion of Nulling",
