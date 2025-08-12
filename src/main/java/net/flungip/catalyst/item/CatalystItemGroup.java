@@ -19,6 +19,16 @@ public final class CatalystItemGroup {
                 entries.add(ModItems.STEW);
                 entries.add(ModItems.POTION_OF_TRANSHUMANCE);
                 entries.add(ModItems.AED_BADGE);
+                entries.add(ModItems.BLAST_POWDER);
+                entries.add(ModItems.NETHER_POWDER);
+                entries.add(ModItems.BONE_DUST);
+                entries.add(ModItems.CHORUS_POWDER);
+                entries.add(ModItems.ENDER_SLIME);
+                entries.add(ModItems.WITHER_DUST);
+                entries.add(ModItems.WITHER_SLIME);
+                entries.add(ModItems.WITHER_CREAM);
+                entries.add(ModItems.XADRYL);
+                entries.add(ModItems.XADRYL_TAB);
             })
             .build();
 

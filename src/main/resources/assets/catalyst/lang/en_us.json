@@ -1,18 +1,39 @@
 {
-  "item.catalyst.stew": "Stew that blinds you for a day",
-  "itemGroup.catalyst_tab": "Catalyst Items",
-  "block.catalyst.alchemy_table": "Alchemy Table",
-  "item.minecraft.potion.effect.nulling": "Potion of Kaolusl",
-  "item.minecraft.splash_potion.effect.nulling": "Splash Potion of Kaolusl",
-  "item.minecraft.lingering_potion.effect.nulling": "Lingering Potion of Kaolusl",
-  "item.minecraft.tipped_arrow.effect.nulling": "Arrow of Kaolusl",
-  "item.catalyst.potion_of_transhumance":  "Potion of Raymoisif",
-  "item.catalyst.potion_of_withdrawl":     "Potion of Withdrawl",
+  "itemGroup.catalyst_tab": "Catalyst",
+
+  "item.catalyst.stew": "Stew",
+  "item.catalyst.aed_badge": "AED Badge",
+
+  "item.catalyst.blast_powder": "Blast Powder",
+  "item.catalyst.nether_powder": "Nether Dust",
+  "item.catalyst.bone_dust": "Bone Dust",
+  "item.catalyst.chorus_powder": "Chorus Powder",
+  "item.catalyst.ender_slime": "Ender Slime",
+  "item.catalyst.wither_dust": "Wither Dust",
+  "item.catalyst.wither_slime": "Wither Slime",
+  "item.catalyst.wither_cream": "Wither Cream",
+  "item.catalyst.xadryl": "Xadryl",
+  "item.catalyst.xadryl_tab": "Xadryl Tab",
+
+  "item.catalyst.potion_of_nulling": "Potion of Nulling",
+  "item.catalyst.potion_of_transhumance": "Potion of Transhumance",
+  "item.catalyst.potion_of_withdrawl": "Potion of Withdrawal",
+
   "effect.catalyst.nulling": "Nulling",
-  "item.minecraft.potion.effect.withdrawal": "Potion of Maelusl",
-  "item.minecraft.splash_potion.effect.withdrawal": "Splash Potion of Maelusl",
-  "item.minecraft.lingering_potion.effect.withdrawal": "Lingering Potion of Maelusl",
-  "item.minecraft.tipped_arrow.effect.withdrawal": "Arrow of Maelusl",
   "effect.catalyst.withdrawal": "Withdrawal",
-  "item.catalyst.aed_badge": "Aed Badge"
+
+  "item.minecraft.potion.effect.nulling": "Potion of Nulling",
+  "item.minecraft.splash_potion.effect.nulling": "Splash Potion of Nulling",
+  "item.minecraft.lingering_potion.effect.nulling": "Lingering Potion of Nulling",
+  "item.minecraft.tipped_arrow.effect.nulling": "Arrow of Nulling",
+
+  "item.minecraft.potion.effect.transhumance": "Potion of Transhumance",
+  "item.minecraft.splash_potion.effect.transhumance": "Splash Potion of Transhumance",
+  "item.minecraft.lingering_potion.effect.transhumance": "Lingering Potion of Transhumance",
+  "item.minecraft.tipped_arrow.effect.transhumance": "Arrow of Transhumance",
+
+  "item.minecraft.potion.effect.withdrawal": "Potion of Withdrawal",
+  "item.minecraft.splash_potion.effect.withdrawal": "Splash Potion of Withdrawal",
+  "item.minecraft.lingering_potion.effect.withdrawal": "Lingering Potion of Withdrawal",
+  "item.minecraft.tipped_arrow.effect.withdrawal": "Arrow of Withdrawal"
 }

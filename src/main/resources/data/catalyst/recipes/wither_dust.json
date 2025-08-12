@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "catalyst:nether_powder"},
+    {"item": "catalyst:bone_dust"}
+  ],
+  "result": {"item": "catalyst:wither_dust", "count": 1}
+}

@@ -6,7 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public final class ModEffects {
+public final class  ModEffects {
     public static final StatusEffect NULLING     = register("nulling",     new NullingEffect());
     public static final StatusEffect WITHDRAWAL  = register("withdrawal",  new WithdrawalEffect()); // NEW
 

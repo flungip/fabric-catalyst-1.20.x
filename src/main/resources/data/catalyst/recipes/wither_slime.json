@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "catalyst:wither_dust"},
+    {"item": "catalyst:ender_slime"}
+  ],
+  "result": {"item": "catalyst:wither_slime", "count": 1}
+}

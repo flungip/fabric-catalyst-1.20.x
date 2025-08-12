@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "catalyst:wither_cream"},
+    {"item": "minecraft:potion", "nbt": "{Potion:\"minecraft:slowness\"}"}
+  ],
+  "result": {"item": "catalyst:xadryl", "count": 1}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:slime_ball"},
+    {"item": "catalyst:chorus_powder"}
+  ],
+  "result": {"item": "catalyst:ender_slime", "count": 1}
+}

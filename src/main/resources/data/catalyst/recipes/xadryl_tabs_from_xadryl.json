@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "catalyst:xadryl" }
+  ],
+  "result": { "item": "catalyst:xadryl_tab", "count": 4 }
+}
