@@ -1,0 +1,8 @@
+{
+  "message_id": "overdose",
+  "scaling": "always",
+  "exhaustion": 0.1,
+  "bypass_armor": true,
+  "bypass_enchantments": true,
+  "effects": "magic"
+}

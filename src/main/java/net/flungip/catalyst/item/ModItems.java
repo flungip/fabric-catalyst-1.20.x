@@ -7,7 +7,6 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.flungip.catalyst.item.XadrylItem;
 
 public class ModItems {
 
@@ -25,7 +24,7 @@ public class ModItems {
                     .snack()
                     .alwaysEdible()
                     .hunger(0).saturationModifier(0f)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,       SIX_MIN, 2), 1.0f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,       SIX_MIN, 0), 1.0f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION,     SIX_MIN, 1), 1.0f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST,     SIX_MIN, 0), 1.0f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,       SIX_MIN, 3), 1.0f)
@@ -43,6 +42,9 @@ public class ModItems {
     public static final Item POTION_OF_WITHDRAWL =
             new WithdrawalPotionItem(new Item.Settings().maxCount(1));
 
+    public static final Item MORTAR_AND_PESTLE =
+            new MortarAndPestleItem(new Item.Settings().maxCount(1));
+
     public static final Item WITHER_CREAM   = new Item(new Item.Settings());
     public static final Item BLAST_POWDER   = new Item(new Item.Settings());
     public static final Item BONE_DUST      = new Item(new Item.Settings());
@@ -52,7 +54,6 @@ public class ModItems {
     public static final Item WITHER_SLIME   = new Item(new Item.Settings());
     public static final Item WITHER_DUST    = new Item(new Item.Settings());
     public static final Item XADRYL = new XadrylItem(new Item.Settings());
-
 
     public static void registerAll() {
         Registry.register(Registries.ITEM, new Identifier("catalyst", "stew"),                STEW);
@@ -69,5 +70,6 @@ public class ModItems {
         Registry.register(Registries.ITEM, new Identifier("catalyst", "wither_dust"),    WITHER_DUST);
         Registry.register(Registries.ITEM, new Identifier("catalyst", "xadryl"),         XADRYL);
         Registry.register(Registries.ITEM, new Identifier("catalyst", "xadryl_tab"),     XADRYL_TAB);
+        Registry.register(Registries.ITEM, new Identifier("catalyst", "mortar_and_pestle"),     MORTAR_AND_PESTLE);
     }
 }

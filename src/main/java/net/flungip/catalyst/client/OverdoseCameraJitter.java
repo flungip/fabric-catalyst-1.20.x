@@ -16,7 +16,7 @@ public final class OverdoseCameraJitter {
             if (inst == null) return;
 
             double progress = 1.0 - Math.min(1.0, inst.getDuration() / 100.0);
-            float amp = (float)(0.2 + 0.8 * progress); // tweak if you want stronger/weaker
+            float amp = (float)(0.2 + 0.8 * progress);
 
             float t = p.age + client.getTickDelta();
             float yawJitter   = (MathHelper.sin(t * 0.9f) + MathHelper.sin(t * 1.7f + 1.3f)) * 0.5f * amp;

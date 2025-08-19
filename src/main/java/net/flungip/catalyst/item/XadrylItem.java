@@ -36,7 +36,6 @@ public class XadrylItem extends Item {
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         if (!world.isClient) {
-            // 5s overdose; Overdose effect handles blindness/slowness/nausea and death on removal
             user.addStatusEffect(new StatusEffectInstance(ModEffects.OVERDOSE, 100, 0, false, true, true));
         }
 

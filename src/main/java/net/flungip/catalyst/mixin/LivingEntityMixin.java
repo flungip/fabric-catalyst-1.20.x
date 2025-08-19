@@ -19,7 +19,6 @@ public abstract class LivingEntityMixin {
     private void catalyst$denyWhileImmune(StatusEffectInstance incoming, CallbackInfoReturnable<Boolean> cir) {
         StatusEffect type = incoming.getEffectType();
         boolean immune = this.hasStatusEffect(ModEffects.NULLING) || this.hasStatusEffect(ModEffects.WITHDRAWAL);
-        // allow NULLING, WITHDRAWAL, and OVERDOSE to be applied even while immune
         if (immune && type != ModEffects.NULLING && type != ModEffects.WITHDRAWAL && type != ModEffects.OVERDOSE) {
             cir.setReturnValue(false);
         }

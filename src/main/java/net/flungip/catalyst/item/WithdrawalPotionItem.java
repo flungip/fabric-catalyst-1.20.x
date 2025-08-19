@@ -14,7 +14,7 @@ import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
 public class WithdrawalPotionItem extends Item {
-    private static final int NULLING_TICKS = 20 * 60 * 2; // 2 minutes; adjust if you want
+    private static final int NULLING_TICKS = 20 * 60 * 2;
 
     public WithdrawalPotionItem(Settings settings) {
         super(settings.maxCount(1).recipeRemainder(Items.GLASS_BOTTLE));

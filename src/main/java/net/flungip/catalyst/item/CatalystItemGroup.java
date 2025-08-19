@@ -29,6 +29,7 @@ public final class CatalystItemGroup {
                 entries.add(ModItems.WITHER_CREAM);
                 entries.add(ModItems.XADRYL);
                 entries.add(ModItems.XADRYL_TAB);
+                entries.add(ModItems.MORTAR_AND_PESTLE);
             })
             .build();
 

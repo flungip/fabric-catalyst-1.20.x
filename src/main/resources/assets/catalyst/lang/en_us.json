@@ -14,6 +14,7 @@
   "item.catalyst.wither_cream": "Wither Cream",
   "item.catalyst.xadryl": "Xadryl",
   "item.catalyst.xadryl_tab": "Xadryl Tab",
+  "item.catalyst.mortar_and_pestle": "Mortar and Pestle",
 
   "item.catalyst.potion_of_nulling": "Potion of Nulling",
   "item.catalyst.potion_of_transhumance": "Potion of Transhumance",
@@ -23,8 +24,10 @@
   "effect.catalyst.withdrawal": "Withdrawal",
   "effect.catalyst.overdose": "Overdose",
 
+  "death.attack.overdose": "%1$s died of an overdose",
+  "death.attack.overdose.player": "%1$s died of an overdose",
 
-  "item.minecraft.potion.effect.nulling": "Potion of Nulling",
+"item.minecraft.potion.effect.nulling": "Potion of Nulling",
   "item.minecraft.splash_potion.effect.nulling": "Splash Potion of Nulling",
   "item.minecraft.lingering_potion.effect.nulling": "Lingering Potion of Nulling",
   "item.minecraft.tipped_arrow.effect.nulling": "Arrow of Nulling",
